@@ -1,0 +1,32 @@
+I"�<h1 id="标题">标题</h1>
+
+<h2 id="全局变量">全局变量</h2>
+<ul>
+  <li>page 代表当前页面，可以获取当前页面中定义的数据</li>
+  <li>site 用于获取 <code class="highlighter-rouge">_config.yml</code> 配置文件中的数据</li>
+  <li>content 用在模板文件中，代表子节点的内容</li>
+  <li>paginator 获取分页的内容
+    <h1 id="列表">列表</h1>
+  </li>
+</ul>
+
+<h2 id="有序列表">有序列表</h2>
+<ol>
+  <li>用数字+.’1.’表示有序列表</li>
+  <li>用数字+.’1.’表示有序列表</li>
+  <li>用数字+.’1.’表示有序列表</li>
+  <li>用数字+.’1.’表示有序列表</li>
+</ol>
+
+<h1 id="代码段">代码段</h1>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>echo "hello world!"
+</code></pre></div></div>
+<blockquote>
+  <p>用三个**反引号表示（```）代码段</p>
+</blockquote>
+
+<p><a href="https://www.baidu.com">百度</a></p>
+
+<p><a href="https://www.baidu.com">https://www.baidu.com</a></p>
+
+:ET

@@ -1,0 +1,34 @@
+I"�<h2 id="全局变量">全局变量</h2>
+<ul>
+  <li>page 代表当前页面，可以获取当前页面中定义的数据</li>
+  <li>site 用于获取 <code class="highlighter-rouge">_config.yml</code> 配置文件中的数据</li>
+  <li>content 用在模板文件中，代表子节点的内容</li>
+  <li>paginator 获取分页的内容
+    <h4 id="列表">列表</h4>
+  </li>
+</ul>
+
+<h2 id="有序列表">有序列表</h2>
+<ol>
+  <li>用数字+.’1.’表示有序列表</li>
+  <li>用数字+.’1.’表示有序列表</li>
+  <li>用数字+.’1.’表示有序列表</li>
+  <li>用数字+.’1.’表示有序列表</li>
+</ol>
+
+<h4 id="随便敲一段代码">随便敲一段代码</h4>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  &lt;a href="index.html" class="list-group-item"&gt;主页&lt;/a&gt;
+  &lt;a href="index.html" class="list-group-item"&gt;副业&lt;/a&gt;
+  &lt;a href="index.html" class="list-group-item"&gt;服务&lt;/a&gt;
+  &lt;a href="index.html" class="list-group-item"&gt;联系&lt;/a&gt;
+  &lt;a href="index.html" class="list-group-item"&gt;栏目2&lt;/a&gt;
+  &lt;a href="index.html" class="list-group-item"&gt;栏目2&lt;/a&gt;
+  &lt;a href="index.html" class="list-group-item"&gt;栏目2&lt;/a&gt;
+  &lt;a href="index.html" class="list-group-item"&gt;栏目2&lt;/a&gt;
+  &lt;a href="index.html" class="list-group-item"&gt;栏目2&lt;/a&gt;
+echo "hello world!"
+</code></pre></div></div>
+
+<p><a href="https://www.baidu.com">百度</a></p>
+
+:ET

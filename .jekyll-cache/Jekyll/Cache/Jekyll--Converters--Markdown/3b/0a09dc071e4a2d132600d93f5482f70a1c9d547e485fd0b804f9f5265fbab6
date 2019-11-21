@@ -1,0 +1,63 @@
+I"�<h1 id="标题">标题</h1>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>      ### 扩展：
+&gt; 标题、列表、代码段、引用、粗体、斜体、图片、链接
+
+# 标记后必须有空格
+
+### Markdown 标题
+
+
+我展示的是一级标题
+=================
+
+我展示的是二级标题
+-----------------
+
+# 一级标题
+## 二级标题
+### 三级标题
+#### 四级标题
+##### 五级标题
+###### 六级标题
+
+# 列表  
+## 无序列表
+- '-'表示无序列表 
+* '*'表示无序列表
++ '+'表示无序列表
+
+## 有序列表
+1. 用数字+.'1.'表示有序列表
+1. 用数字+.'1.'表示有序列表
+4. 用数字+.'1.'表示有序列表
+1. 用数字+.'1.'表示有序列表
+
+# 代码段
+</code></pre></div></div>
+<p>echo “hello world!”</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; 用三个**反引号表示（```）代码段
+
+# 图片和链接
+![alt替代文本](1.jpg)  
+
+[百度](https://www.baidu.com)  
+
+&lt;https://www.baidu.com&gt;
+
+[![alt替代文本](2.jpg) ](https://www.baidu.com)
+
+_斜体字_
+
+__粗体字__
+
+___粗体斜体字___
+
+*斜体字*
+
+**粗体字**
+
+***粗体斜体字***
+
+</code></pre></div></div>
+
+:ET
