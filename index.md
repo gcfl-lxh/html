@@ -17,7 +17,7 @@ layout: base
       <a href="{{site.baseurl}}{{post.url}}"><img class="card-img-top" src="img/lufei.jpg" alt=""></a>
       <div class="card-body">
         <h4 class="card-title">
-          <a href="{{site.baseurl}}{{post.url}}/">{{post.title}}</a>
+          <a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
         </h4>
         <p class="card-text">{{post.information}}</p>
      
