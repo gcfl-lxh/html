@@ -1,1 +1,5 @@
 baseurl: /html
+
+paginate: 6
+
+plugins: [jekyll-paginate]

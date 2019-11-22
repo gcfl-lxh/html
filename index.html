@@ -1,0 +1,52 @@
+---
+layout: base
+---
+
+
+<!-- Page Content -->
+  <div class="container">
+
+
+<!-- Portfolio Section -->
+<h2 class="my-4">栏目2</h2>
+
+<div class="row">
+{% for post in paginator.posts %}
+  <div class="col-lg-4 col-sm-6 portfolio-item">
+    <div class="card h-100">
+      <a href="{{site.baseurl}}{{post.url}}"><img class="card-img-top" src="{{site.baseurl}}/img/lufei.jpg" alt=""></a>
+      <div class="card-body">
+        <h4 class="card-title">
+          <a href="{{site.baseurl}}{{post.url}}"></a>
+        </h4>
+        <p class="card-text">{{post.information}}</p>
+     
+      </div>
+    </div>
+  </div>
+{% endfor %}
+</div>
+
+<!-- /.row -->
+
+
+
+<!-- 分页 -->
+
+  
+<div style="margin-left: 45%;">
+{% if paginator.previous_page %}
+  <a class="" href="{{site.baseurl}}{{paginator.previous_page_path}}" aria-label="Previous">&laquo;上一页 </a>
+{% endif %}
+
+{% if paginator.next_page %}
+  <a class="" href="{{site.baseurl}}{{paginator.next_page_path}}" aria-label="Next" >下一页&raquo; </a>
+{% endif %}
+</div>
+
+<hr>
+
+
+
+</div>
+<!-- /.container -->
