@@ -5,13 +5,13 @@ layout: base
   <div class="container">
 
     <!-- Page Heading/Breadcrumbs -->
-    <h1 class="mt-4 mb-3">栏目
-      <small>Subheading</small>
+    <h1 class="mt-4 mb-3">
+      {{page.title}}
     </h1>
 
     <ol class="breadcrumb">
       <li class="breadcrumb-item">
-        <a href="index.html">主页</a>
+        <a href="{{site.baseurl}}/">主页</a>
       </li>
       <li class="breadcrumb-item active">副页</li>
     </ol>
@@ -21,27 +21,35 @@ layout: base
       <!-- Sidebar Column -->
       <div class="col-lg-3 mb-4">
         <div class="list-group">
-          <a href="index.html" class="list-group-item">主页</a>
-          <a href="index.html" class="list-group-item">副业</a>
-          <a href="index.html" class="list-group-item">服务</a>
-          <a href="index.html" class="list-group-item">联系</a>
-          <a href="index.html" class="list-group-item">栏目2</a>
-          <a href="index.html" class="list-group-item">栏目2</a>
-          <a href="index.html" class="list-group-item">栏目2</a>
-          <a href="index.html" class="list-group-item">栏目2</a>
-          <a href="index.html" class="list-group-item">栏目2</a>
-          <a href="index.html" class="list-group-item">博客主页1</a>
-          <a href="index.html" class="list-group-item">博客主页2</a>
-          <a href="index.html" class="list-group-item">博客发布</a>
-          <a href="index.html" class="list-group-item">全角页面</a>
-          <a href="index.html" class="list-group-item active">边栏页面</a>
-          <a href="index.html" class="list-group-item">常见问题</a>
-          <a href="index.html" class="list-group-item">报价表</a>
+          <a href="{{site.baseurl}}/" class="list-group-item">主页</a>
+          <a href="{{site.baseurl}}/" class="list-group-item">副业</a>
+          <a href="{{site.baseurl}}/" class="list-group-item">服务</a>
+          <a href="{{site.baseurl}}/" class="list-group-item">联系</a>
+          <a href="{{site.baseurl}}/" class="list-group-item">栏目2</a>
+          <a href="{{site.baseurl}}/" class="list-group-item">栏目2</a>
+          <a href="{{site.baseurl}}/" class="list-group-item">栏目2</a>
+          <a href="{{site.baseurl}}/" class="list-group-item">栏目2</a>
+          <a href="{{site.baseurl}}/" class="list-group-item">栏目2</a>
+          <a href="{{site.baseurl}}/" class="list-group-item">博客主页1</a>
+          <a href="{{site.baseurl}}/" class="list-group-item">博客主页2</a>
+          <a href="{{site.baseurl}}/" class="list-group-item">博客发布</a>
+          <a href="{{site.baseurl}}/" class="list-group-item">全角页面</a>
+          <a href="{{site.baseurl}}/" class="list-group-item active">边栏页面</a>
+          <a href="{{site.baseurl}}/" class="list-group-item">常见问题</a>
+          <a href="{{site.baseurl}}/" class="list-group-item">报价表</a>
         </div>
       </div>
       <!-- Content Column -->
       <div class="col-lg-9 mb-4">
        {{content}}
+        <div>
+        {% if page.next %}
+          <a href="{{site.baseurl}}/{{page.next.url}}">上一篇</a>
+        {% endif %}
+        {% if page.previous %}
+          <a href="{{site.baseurl}}/{{page.previous.url}}">下一篇</a>
+        {% endif %}
+        </div>
       </div>
     </div>
     <!-- /.row -->
