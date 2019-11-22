@@ -37,10 +37,14 @@ layout: base
 <div style="margin-left: 45%;">
 {% if paginator.previous_page %}
   <a class="" href="{{site.baseurl}}{{paginator.previous_page_path}}" aria-label="Previous">&laquo;上一页 </a>
+  {% else %}
+  <button class="btn" disabled="disabled">木得了~</button>
 {% endif %}
 
 {% if paginator.next_page %}
   <a class="" href="{{site.baseurl}}{{paginator.next_page_path}}" aria-label="Next" >下一页&raquo; </a>
+   {% else %}
+  <a href="{{site.baseurl}}/">首页</a>
 {% endif %}
 </div>
 
